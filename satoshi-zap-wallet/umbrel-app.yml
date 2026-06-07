@@ -21,7 +21,8 @@ dependencies:
   - lnbits
 repo: https://github.com/satoshizap/satoshi-zap-umbrel-store
 support: https://github.com/satoshizap/satoshi-zap-umbrel-store
-gallery: []
+gallery:
+  - https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/gallery/1.png
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
