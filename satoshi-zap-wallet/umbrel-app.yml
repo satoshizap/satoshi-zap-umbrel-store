@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.126"
+version: "1.2.127"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and exchange gateway
 description: >
@@ -25,7 +25,7 @@ gallery: []
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  v1.2.126. Sync assistant quick prompts via Nostr relays. Block admin panel access on hosted client domains (wallet.satoshizap.app) for enhanced security.
-  Verze 1.2.126. Synchronizace rychlých voleb asistenta přes Nostr relaye. Zablokování přístupu do administrace na hostovaných klientských doménách (wallet.satoshizap.app) pro vyšší bezpečnost.
+  v1.2.127. Initial release under the satoshizap organization namespace.
+  Verze 1.2.127. První vydání pod jmenným prostorem organizace satoshizap.
 submitter: SatoshiZap
 submission: https://github.com/satoshizap/satoshi-zap-umbrel-store
