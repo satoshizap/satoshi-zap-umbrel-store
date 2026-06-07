@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.127"
+version: "1.2.128"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and exchange gateway
 description: >
@@ -26,7 +26,7 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  v1.2.127. Initial release under the satoshizap organization namespace.
-  Verze 1.2.127. První vydání pod jmenným prostorem organizace satoshizap.
+  v1.2.128. Migration of the license and donation billing LNURL address to satoshizap@ln.bytomat.cz.
+  Verze 1.2.128. Migrace licenční a darovací adresy (LNURL) na satoshizap@ln.bytomat.cz.
 submitter: SatoshiZap
 submission: https://github.com/satoshizap/satoshi-zap-umbrel-store
