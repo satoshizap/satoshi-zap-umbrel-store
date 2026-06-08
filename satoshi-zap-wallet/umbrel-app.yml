@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.132"
+version: "1.2.133"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,7 +26,7 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  v1.2.132. Disabled auto-tagging in LNbits for internal transfers sharing payment hash to prevent tag override loops.
-  Verze 1.2.132. Vypnuto automatické zapisování štítků do LNbits u interních převodů sdílejících payment_hash (prevence nekonečné smyčky přepisování).
+  v1.2.133. Restrict LNbits tag writing suppression specifically to internal transfers with 'internal_' checking ID prefix.
+  Verze 1.2.133. Omezení potlačení zápisu štítků do LNbits pouze na vnitřní převody s prefixem ID 'internal_'.
 submitter: SatoshiZap
 submission: https://github.com/satoshizap/satoshi-zap-umbrel-store
