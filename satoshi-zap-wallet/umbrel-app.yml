@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.135"
+version: "1.2.136"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,7 +26,7 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  v1.2.135. Suppress LNbits label writes for both sides of internal transfers due to an internal LNbits database label propagation issue.
-  Verze 1.2.135. Potlačení zápisu štítků do LNbits pro obě strany interních převodů z důvodu interní chyby propagace štítků v databázi LNbits.
+  v1.2.136. Prevent incoming transactions from inheriting or keeping expense category mappings.
+  Verze 1.2.136. Zamezení příchozím transakcím v dědění či uchovávání kategorií typu výdaj.
 submitter: SatoshiZap
 submission: https://github.com/satoshizap/satoshi-zap-umbrel-store
