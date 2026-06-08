@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.131"
+version: "1.2.132"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,7 +26,7 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  v1.2.131. Protected incoming transactions from being classified into expense categories (e.g. Donate) due to internal LNbits transfers sharing payment hash.
-  Verze 1.2.131. Ochrana příchozích plateb před nesprávným zařazením do výdajových kategorií (např. Donate) u interních LNbits převodů se stejným payment_hash.
+  v1.2.132. Disabled auto-tagging in LNbits for internal transfers sharing payment hash to prevent tag override loops.
+  Verze 1.2.132. Vypnuto automatické zapisování štítků do LNbits u interních převodů sdílejících payment_hash (prevence nekonečné smyčky přepisování).
 submitter: SatoshiZap
 submission: https://github.com/satoshizap/satoshi-zap-umbrel-store
