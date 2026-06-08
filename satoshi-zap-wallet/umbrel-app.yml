@@ -3,9 +3,9 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.130"
+version: "1.2.131"
 port: 3020
-tagline: Smart Bitcoin Lightning wallet and exchange gateway
+tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
   Satoshi Zap is an advanced, highly optimized self-hosted Bitcoin Lightning wallet and dashboard.
   It offers full integration with your LNbits instance and direct connections to leading global and European exchanges (Coinmate, Bybit, Strike, Coinbase, Binance) for high-speed fiat-to-bitcoin purchases and submarine swaps (via Boltz.exchange).
@@ -26,7 +26,7 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  v1.2.130. Dynamic Wavecard NWC limit detection per-wallet (preventing unnecessary 404 logs and showing filter only on wallets with configured connection).
-  Verze 1.2.130. Dynamické ověřování Wavecard NWC limitů pro konkrétní peněženku (vypnutí filtru a chybových logů na peněženkách bez nakonfigurovaného spojení).
+  v1.2.131. Protected incoming transactions from being classified into expense categories (e.g. Donate) due to internal LNbits transfers sharing payment hash.
+  Verze 1.2.131. Ochrana příchozích plateb před nesprávným zařazením do výdajových kategorií (např. Donate) u interních LNbits převodů se stejným payment_hash.
 submitter: SatoshiZap
 submission: https://github.com/satoshizap/satoshi-zap-umbrel-store
