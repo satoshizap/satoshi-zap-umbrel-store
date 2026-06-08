@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.136"
+version: "1.2.137"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,7 +26,7 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  v1.2.136. Prevent incoming transactions from inheriting or keeping expense category mappings.
-  Verze 1.2.136. Zamezení příchozím transakcím v dědění či uchovávání kategorií typu výdaj.
+  v1.2.137. Robust protection against internal transfer label overwrite across AI and Nostr sync.
+  Verze 1.2.137. Robustní ochrana před přepisováním štítků u interních převodů v rámci AI i Nostr synchronizace.
 submitter: SatoshiZap
 submission: https://github.com/satoshizap/satoshi-zap-umbrel-store
