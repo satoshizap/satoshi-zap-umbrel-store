@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.138"
+version: "1.2.139"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,7 +26,7 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  v1.2.138. Enforce category protection on incoming internal transfer pair transactions.
-  Verze 1.2.138. Vynucení ochrany kategorií pro příchozí transakce u interních převodů.
+  v1.2.139. Stabilize layout height on startup, reload and back navigation. Fix Android PWA reload viewport glitch.
+  Verze 1.2.139. Stabilizace výšky rozvržení při startu, reloadu a návratu zpět. Oprava Android PWA reload viewport chyby.
 submitter: SatoshiZap
 submission: https://github.com/satoshizap/satoshi-zap-umbrel-store
