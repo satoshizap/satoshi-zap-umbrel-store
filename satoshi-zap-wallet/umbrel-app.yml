@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.134"
+version: "1.2.135"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,7 +26,7 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  v1.2.134. Use unique checking_id instead of payment_hash as primary Nostr metadata key to completely decouple internal transfers.
-  Verze 1.2.134. Použití unikátního checking_id namísto payment_hash jako hlavního klíče pro Nostr metadata k úplnému oddělení interních převodů.
+  v1.2.135. Suppress LNbits label writes for both sides of internal transfers due to an internal LNbits database label propagation issue.
+  Verze 1.2.135. Potlačení zápisu štítků do LNbits pro obě strany interních převodů z důvodu interní chyby propagace štítků v databázi LNbits.
 submitter: SatoshiZap
 submission: https://github.com/satoshizap/satoshi-zap-umbrel-store
