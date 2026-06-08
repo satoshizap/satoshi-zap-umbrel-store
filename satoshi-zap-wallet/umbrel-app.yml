@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.129"
+version: "1.2.130"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and exchange gateway
 description: >
@@ -26,7 +26,7 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  v1.2.129. Fix donation payment verification logic (support direct verifyUrl and local wallet checks).
-  Verze 1.2.129. Oprava logiky ověřování darovacích plateb (přímé ověření přes verifyUrl a lokální peněženku).
+  v1.2.130. Dynamic Wavecard NWC limit detection per-wallet (preventing unnecessary 404 logs and showing filter only on wallets with configured connection).
+  Verze 1.2.130. Dynamické ověřování Wavecard NWC limitů pro konkrétní peněženku (vypnutí filtru a chybových logů na peněženkách bez nakonfigurovaného spojení).
 submitter: SatoshiZap
 submission: https://github.com/satoshizap/satoshi-zap-umbrel-store
