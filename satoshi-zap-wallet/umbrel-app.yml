@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.142"
+version: "1.2.143"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,7 +26,7 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  v1.2.142. Fix profile sync activation and restoration on local instances (CORS header configuration and settings preservation).
-  Verze 1.2.142. Oprava zapnutí a obnovení synchronizace profilu na lokálních instancích (nastavení CORS hlaviček a zamezení mazání nastavení uzlu).
+  v1.2.143. Add secure context validation for profile sync to prevent crashes on non-HTTPS/HTTP local IP addresses.
+  Verze 1.2.143. Přidána kontrola zabezpečeného kontextu (HTTPS) pro synchronizaci profilu pro zamezení chyb na nešifrovaných lokálních IP adresách.
 submitter: SatoshiZap
 submission: https://github.com/satoshizap/satoshi-zap-umbrel-store
