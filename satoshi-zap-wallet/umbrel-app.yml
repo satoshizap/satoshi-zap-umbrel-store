@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.144"
+version: "1.2.145"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,7 +26,7 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  v1.2.144. Implement backend proxy for profile sync to bypass browser CORS and secure context restrictions.
-  Verze 1.2.144. Implementace backendové proxy pro synchronizaci profilu pro obejití CORS a zabezpečeného kontextu prohlížeče.
+  v1.2.145. Delegate Nostr key derivation to local backend to fix profile synchronization/creation in insecure HTTP contexts.
+  Verze 1.2.145. Delegování derivace klíčů Nostr na lokální backend pro opravu synchronizace/zakládání profilu v nezabezpečeném kontextu HTTP.
 submitter: SatoshiZap
 submission: https://github.com/satoshizap/satoshi-zap-umbrel-store
