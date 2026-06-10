@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.141"
+version: "1.2.142"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,7 +26,7 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  v1.2.141. Fix NWC wallet initialization on switch. Restore strict wallet reload logic to handle websocket connection teardown and PIN decryption correctly.
-  Verze 1.2.141. Oprava inicializace NWC peněženky při přepnutí. Obnovení striktního reloadu peněženek pro korektní odpojení websocketu a dešifrování PINu.
+  v1.2.142. Fix profile sync activation and restoration on local instances (CORS header configuration and settings preservation).
+  Verze 1.2.142. Oprava zapnutí a obnovení synchronizace profilu na lokálních instancích (nastavení CORS hlaviček a zamezení mazání nastavení uzlu).
 submitter: SatoshiZap
 submission: https://github.com/satoshizap/satoshi-zap-umbrel-store
