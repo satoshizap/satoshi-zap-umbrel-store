@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.145"
+version: "1.2.146"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,7 +26,7 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  v1.2.145. Delegate Nostr key derivation to local backend to fix profile synchronization/creation in insecure HTTP contexts.
-  Verze 1.2.145. Delegování derivace klíčů Nostr na lokální backend pro opravu synchronizace/zakládání profilu v nezabezpečeném kontextu HTTP.
+  v1.2.146. Implement secure profile code storage on the backend to automatically restore profiles on different domain/proxy origins.
+  Verze 1.2.146. Implementace bezpečného ukládání synchronizačního kódu na backendu pro automatickou obnovu profilu při přístupu z různých domén/proxy.
 submitter: SatoshiZap
 submission: https://github.com/satoshizap/satoshi-zap-umbrel-store
