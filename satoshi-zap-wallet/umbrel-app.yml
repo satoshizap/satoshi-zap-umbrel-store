@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.154"
+version: "1.2.155"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,7 +26,7 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  v1.2.154. Fix direct connection reachability status and make Nostr RPC connection non-blocking during app loading.
-  Verze 1.2.154. Oprava indikace dostupnosti uzlu v přímém režimu a optimalizace připojení Nostr RPC na pozadí, aby se nezasekával start aplikace.
+  v1.2.155. Preserve Nostr connection mode when switching to sub-wallets, preventing lockouts and connection toggles.
+  Verze 1.2.155. Zachování režimu připojení přes Nostr při přepínání na pod-peněženky (sub-wallets), což zabraňuje nežádoucímu uzamykání aplikace a vypínání Nostru.
 submitter: SatoshiZap
 submission: https://github.com/satoshizap/satoshi-zap-umbrel-store
