@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.151"
+version: "1.2.152"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,7 +26,7 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  v1.2.151. Fix biometrics validation fail and direct HTTP requests block (LOCAL_REQUEST_BLOCKED error) in hosted mode.
-  Verze 1.2.151. Oprava selhání biometrického ověření a blokování přímých požadavků (chyba LOCAL_REQUEST_BLOCKED) v hosted režimu.
+  v1.2.152. Add Nostr Relay connection fallback button to lock screen when direct node connection fails.
+  Verze 1.2.152. Přidáno tlačítko pro nouzové přepnutí na Nostr (Relay) na zamykací obrazovku při selhání přímého spojení s uzlem.
 submitter: SatoshiZap
 submission: https://github.com/satoshizap/satoshi-zap-umbrel-store
