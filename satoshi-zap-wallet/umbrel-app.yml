@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.158"
+version: "1.2.159"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,7 +26,7 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  v1.2.158. Hide dev buttons, verify/display license expiration status, and restrict Pay/Receive fiat buttons per locale.
-  Verze 1.2.158. Skrytí vývojářských tlačítek, kontrola/zobrazení expirace licence a omezení tlačítek měn na stránkách Platba/Příjem podle zvoleného jazyka.
+  v1.2.159. Clarify yearly license duration, pricing, and display license expiration on the admin page.
+  Verze 1.2.159. Zpřesnění ročního trvání licence, ceny a zobrazení expirace licence v administraci.
 submitter: SatoshiZap
 submission: https://github.com/satoshizap/satoshi-zap-umbrel-store
