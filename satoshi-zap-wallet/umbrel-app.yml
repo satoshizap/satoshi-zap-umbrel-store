@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.146"
+version: "1.2.149"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,7 +26,7 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  v1.2.146. Implement secure profile code storage on the backend to automatically restore profiles on different domain/proxy origins.
-  Verze 1.2.146. Implementace bezpečného ukládání synchronizačního kódu na backendu pro automatickou obnovu profilu při přístupu z různých domén/proxy.
+  v1.2.149. Add "Connect via Nostr" toggle to settings for the Primary wallet. Update active badge to display "NOSTR ACTIVE" / "NOSTR AKTIVNÍ" when Nostr connection is enabled.
+  Verze 1.2.149. Přidána možnost "Připojit pomocí Nostr" do nastavení pro primární peněženku. Aktualizován aktivní badge na "NOSTR AKTIVNÍ" / "NOSTR ACTIVE" při zapnutém Nostru.
 submitter: SatoshiZap
 submission: https://github.com/satoshizap/satoshi-zap-umbrel-store
