@@ -13,7 +13,7 @@ Přidání tohoto repozitáře do vašeho Umbrel uzlu je extrémně jednoduché:
 3. V pravém horním rohu klikněte na **tři tečky** a zvolte možnost **Add Community App Store** (Přidat komunitní obchod).
 4. Vložte odkaz na tento váš GitHub repozitář:
    ```plaintext
-   https://github.com/<vas-github-login>/satoshi-zap-umbrel-store
+   https://github.com/satoshizap/satoshi-zap-umbrel-store
    ```
 5. Klikněte na **Add** (Přidat).
 
