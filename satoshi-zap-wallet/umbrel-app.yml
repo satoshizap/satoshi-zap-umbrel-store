@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.157"
+version: "1.2.158"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,7 +26,7 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  v1.2.157. Fix transaction history loading deadlock and implement intelligent recursive period loading in Analytics.
-  Verze 1.2.157. Oprava zaseknutí navigace v analýzách a inteligentní rekurzivní donačítání vybraného období.
+  v1.2.158. Hide dev buttons, verify/display license expiration status, and restrict Pay/Receive fiat buttons per locale.
+  Verze 1.2.158. Skrytí vývojářských tlačítek, kontrola/zobrazení expirace licence a omezení tlačítek měn na stránkách Platba/Příjem podle zvoleného jazyka.
 submitter: SatoshiZap
 submission: https://github.com/satoshizap/satoshi-zap-umbrel-store
