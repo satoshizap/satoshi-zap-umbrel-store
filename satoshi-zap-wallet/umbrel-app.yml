@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.160"
+version: "1.2.163"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,7 +26,7 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  v1.2.160. Fix profile restoration and sync display in the Admin panel under non-secure context or on local networks.
-  Verze 1.2.160. Oprava obnovy profilu a zobrazení synchronizace v administraci na lokálních sítích.
+  v1.2.163. Přidána podpora pro LNURL platby (QR i NFC), bleskové automatické obnovování WebSocketů na pozadí, registrace jako systémová PWA peněženka a zjednodušená indikace offline stavu.
+  v1.2.163. Added full support for LNURL payments (QR and NFC), lightning-fast WebSocket background reconnection, PWA system protocol handlers, and a minimal header offline indicator.
 submitter: SatoshiZap
 submission: https://github.com/satoshizap/satoshi-zap-umbrel-store
