@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.166"
+version: "1.2.167"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,7 +26,7 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  v1.2.166. Oprava chybné registrace protokolu v manifestu (přechod na web+lightning a web+ln) a podpora pro parsování těchto standardů na platební stránce.
-  v1.2.166. Fix PWA protocol handlers in manifest (using web+lightning and web+ln) and support parsing these schemes on the payment page.
+  v1.2.167. Podpora pro detekci adresy z LNbits a sjednocení vzhledu přepínače režimů na stránce Odeslat.
+  v1.2.167. Support for LNbits address detection and alignment of the mode toggle switcher styling on the Send page.
 submitter: SatoshiZap
 submission: https://github.com/satoshizap/satoshi-zap-umbrel-store
