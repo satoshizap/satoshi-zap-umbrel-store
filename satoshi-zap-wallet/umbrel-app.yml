@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.169"
+version: "1.2.170"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,7 +26,7 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  v1.2.169. Úprava licencí: burzy, swapy, AI asistent a MCP jsou v BASIC verzi. Záloha profilu, správa více peněženek (v BASIC povolena max. 1) a Nostr sync vyžadují PRO. Podpora NWC na webovém rozhraní.
-  v1.2.169. License restructuring: exchanges, swaps, AI and MCP are free in BASIC. Profile backup, multi-wallet management (max 1 in BASIC) and Nostr sync require PRO. NWC support on web interface.
+  v1.2.170. Přidána sada unit testů. Zkrácen interval hlídání a obnovení spojení k Nostr relé na 60 sekund. Nastavena minimální částka pro Coinmate Lightning výběry na 1000 sats.
+  v1.2.170. Added unit test suite. Optimized Nostr relay health check and reconnection interval to 60 seconds. Set minimum Coinmate Lightning withdrawal limit to 1000 sats.
 submitter: SatoshiZap
 submission: https://github.com/satoshizap/satoshi-zap-umbrel-store
