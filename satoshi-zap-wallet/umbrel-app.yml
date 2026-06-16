@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.167"
+version: "1.2.168"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,7 +26,7 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  v1.2.167. Podpora pro detekci adresy z LNbits a sjednocení vzhledu přepínače režimů na stránce Odeslat.
-  v1.2.167. Support for LNbits address detection and alignment of the mode toggle switcher styling on the Send page.
+  v1.2.168. Úprava licencí: funkce jako burzy, swapy, AI asistent a MCP server jsou nově dostupné v BASIC verzi. Záloha profilu, správa peněženek a Nostr sync vyžadují PRO licenci.
+  v1.2.168. License restructuring: features like exchanges, swaps, AI assistant and MCP server are now available in BASIC mode. Profile backup, wallet management and Nostr sync require PRO license.
 submitter: SatoshiZap
 submission: https://github.com/satoshizap/satoshi-zap-umbrel-store
