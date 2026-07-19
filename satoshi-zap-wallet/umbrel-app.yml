@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.171"
+version: "1.2.172"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,6 +26,8 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
+  v1.2.172. Oprava duplicitních ntfy notifikací pomocí persistentní sdílené cache.
+  v1.2.172. Fixed duplicate ntfy notifications using a persistent shared cache.
   v1.2.171. Přidána sada unit testů. Zkrácen interval hlídání Nostr relé na 60s. Omezeno minimální vyžadované množství Coinmate Lightning výběru na 1000 sats (bez ovlivnění jiných peněženek).
   v1.2.171. Added unit test suite. Shortened Nostr relay health check to 60s. Enforced 1000 sats minimum Coinmate Lightning withdrawal limit (other wallets unaffected).
 submitter: SatoshiZap
