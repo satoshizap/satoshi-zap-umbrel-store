@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.180"
+version: "1.2.181"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,6 +26,8 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
+  v1.2.181. Automatické snížení částky o poplatek při převodu celého Strike zůstatku na vlastní peněženku.
+  v1.2.181. Auto-adjust and deduct Strike routing fee from own wallet withdrawal when selecting MAX balance.
   v1.2.180. Doladěny vertikální mezery u tlačítek MAX a popisků minimální částky.
   v1.2.180. Fine-tuned vertical spacing for MAX buttons and minimum amount notes.
   v1.2.179. Sjednocen design tlačítek MAX pro směnu a výběr.
