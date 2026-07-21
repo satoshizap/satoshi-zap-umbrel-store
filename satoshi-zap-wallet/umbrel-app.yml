@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.183"
+version: "1.2.184"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,6 +26,8 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
+  v1.2.184. Automatická detekce a přechod na novou cestu NWC provideru v LNbits v1.5.6.
+  v1.2.184. Automatic detection and root fallback for NWC provider endpoint in LNbits v1.5.6.
   v1.2.183. Vylepšená in-memory deduplikace ntfy notifikací zabraňující duplicitám.
   v1.2.183. Improved in-memory ntfy notification deduplication to prevent duplicates.
   v1.2.182. Navrácení původního chování a odebírání poplatků pro Strike Lightning (ponecháno pouze tlačítko MAX v UI).
