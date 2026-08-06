@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.186"
+version: "1.2.187"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,6 +26,8 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
+  v1.2.187. Oprava vytváření a načítání Boltz swapů v LNbits v1.5.6 (přechod na kořenové API /boltz/api/v1).
+  v1.2.187. Fix Boltz swap creation and status check for LNbits v1.5.6 (migrated to root API /boltz/api/v1).
   v1.2.186. Oprava falešné detekce Wavecard plateb ignorováním historických Nostr událostí a zkrácením okna na 15s.
   v1.2.186. Fix Wavecard false positive detection by ignoring historical Nostr events and shortening window to 15s.
   v1.2.185. Automatická migrace konfigurace a restart multiplexeru pro Wavecard a NWC v LNbits v1.5.6+.
