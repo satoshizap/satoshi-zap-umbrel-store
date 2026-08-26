@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.193"
+version: "1.2.194"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,8 +26,8 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
-  v1.2.193. Automatická optimalizace paměti RAM a zapojení periodického Garbage Collectoru (udržování spotřeby RAM pod 200-250MB).
-  v1.2.193. Automatic RAM optimization, V8 max old space limit (256MB) and periodic background Garbage Collection.
+  v1.2.194. Oprava NODE_OPTIONS proměnné (odstranění nepodporované vlajky --optimize_for_size). Ponechán 256MB heap limit a periodic GC.
+  v1.2.194. Fix NODE_OPTIONS environment variable (removed unsupported --optimize_for_size flag). Preserved 256MB heap limit and periodic GC.
   v1.2.192. Plná podpora stránkování historie a offsetu v MCP nástroji search_all_payments.
   v1.2.192. Full support for complete history pagination and offset in MCP search_all_payments tool.
   v1.2.191. Oprava vytváření a načítání Boltz swapů v LNbits v1.5.6 (přechod na kořenové API /boltz/api/v1).
