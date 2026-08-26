@@ -19,7 +19,7 @@ services:
       - UMBREL=true
       - LICENSE_SERVER_URL=https://satoshi-zap-license-worker.cybob.workers.dev
       - MOCK_LICENSE=false
-      - NODE_OPTIONS=--max-old-space-size=256 --optimize_for_size --expose-gc
+      - NODE_OPTIONS=--max-old-space-size=256 --expose-gc
     expose:
       - "3020"
     volumes:
