@@ -8,7 +8,7 @@ services:
       PROXY_AUTH_ADD: "false"
 
   web:
-    image: ghcr.io/satoshizap/satoshi-zap:1.2.194
+    image: ghcr.io/satoshizap/satoshi-zap:1.2.195
     restart: on-failure
     mem_limit: 512m
     environment:
