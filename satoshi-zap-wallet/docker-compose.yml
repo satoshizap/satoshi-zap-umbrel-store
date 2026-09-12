@@ -8,9 +8,10 @@ services:
       PROXY_AUTH_ADD: "false"
 
   web:
-    image: ghcr.io/satoshizap/satoshi-zap:1.2.195
+    image: ghcr.io/satoshizap/satoshi-zap:1.2.196
     restart: on-failure
-    mem_limit: 512m
+    mem_limit: 384m
+    memswap_limit: 384m
     environment:
       - PORT=3020
       - LNBITS_URL=http://172.17.0.1:3007
