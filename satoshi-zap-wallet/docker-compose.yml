@@ -12,7 +12,7 @@ services:
     memswap_limit: 128m
 
   web:
-    image: ghcr.io/satoshizap/satoshi-zap:1.2.197
+    image: ghcr.io/satoshizap/satoshi-zap:1.2.198
     restart: on-failure
     mem_limit: 256m
     memswap_limit: 256m
