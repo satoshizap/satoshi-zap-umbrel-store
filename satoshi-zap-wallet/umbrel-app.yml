@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.198"
+version: "1.2.199"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,6 +26,8 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
+  v1.2.199. Automatická synchronizace štítků kategorií do LNbits účtu přes API a revize administrace.
+  v1.2.199. Automatic category labels synchronization to LNbits account via API and admin UI revision.
   v1.2.198. Nová ikona AI asistenta, okamžité otevření biometriky a zrychlení odemykání peněženky.
   v1.2.198. New AI assistant chat icon, instant biometric unlock and wallet authentication speedup.
   v1.2.197. Zastropování paměti Umbrel app_proxy (64m) a oprava hromadění SSE spojení v MCP endpointu.
