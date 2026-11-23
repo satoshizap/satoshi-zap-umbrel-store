@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.200"
+version: "1.2.201"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,6 +26,8 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
+  v1.2.201. Oprava synchronizace smazaného NWC/Wavecard připojení přes Cloudflare Nostr RPC (vrací HTTP 200 se selected: null místo 404).
+  v1.2.201. Fix deleted NWC/Wavecard connection sync over Cloudflare Nostr RPC (return HTTP 200 with selected: null instead of 404).
   v1.2.200. Přechod AI chat asistenta na model Gemini 4 Hydrogen (MEDIUM thinking level) s konfigurovatelnou úrovní uvažování.
   v1.2.200. Switched AI chat assistant to Gemini 4 Hydrogen (MEDIUM thinking level) with configurable thinking level.
   v1.2.199. Automatická synchronizace štítků kategorií do LNbits účtu přes API a revize administrace.
