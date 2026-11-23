@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.199"
+version: "1.2.200"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,6 +26,8 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
+  v1.2.200. Přechod AI chat asistenta na model Gemini 4 Hydrogen (MEDIUM thinking level) s konfigurovatelnou úrovní uvažování.
+  v1.2.200. Switched AI chat assistant to Gemini 4 Hydrogen (MEDIUM thinking level) with configurable thinking level.
   v1.2.199. Automatická synchronizace štítků kategorií do LNbits účtu přes API a revize administrace.
   v1.2.199. Automatic category labels synchronization to LNbits account via API and admin UI revision.
   v1.2.198. Nová ikona AI asistenta, okamžité otevření biometriky a zrychlení odemykání peněženky.
