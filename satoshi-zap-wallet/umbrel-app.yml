@@ -3,7 +3,7 @@ id: satoshi-zap-wallet
 icon: https://raw.githubusercontent.com/satoshizap/satoshi-zap-umbrel-store/main/satoshi-zap-wallet/icon.svg
 category: bitcoin
 name: SatoshiZap
-version: "1.2.201"
+version: "1.2.202"
 port: 3020
 tagline: Smart Bitcoin Lightning wallet and gateway
 description: >
@@ -26,6 +26,8 @@ gallery:
 path: "admin"
 defaultPassword: ""
 releaseNotes: >
+  v1.2.202. On-chain výběry z Coinmate nyní používají amountType: NET, takže se poplatek odečítá přímo ze zadané částky a lze vybrat celý zůstatek (MAX).
+  v1.2.202. Coinmate on-chain withdrawals now use amountType: NET so the fee is deducted from the withdrawal amount, allowing full balance (MAX) withdrawals.
   v1.2.201. Oprava synchronizace smazaného NWC/Wavecard připojení přes Cloudflare Nostr RPC (vrací HTTP 200 se selected: null místo 404).
   v1.2.201. Fix deleted NWC/Wavecard connection sync over Cloudflare Nostr RPC (return HTTP 200 with selected: null instead of 404).
   v1.2.200. Přechod AI chat asistenta na model Gemini 4 Hydrogen (MEDIUM thinking level) s konfigurovatelnou úrovní uvažování.
